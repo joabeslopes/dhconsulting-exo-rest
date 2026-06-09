@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<extension xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.exoplatform.org/xml/ns/extension_1_0.xsd http://www.exoplatform.org/xml/ns/extension_1_0.xsd"
-  xmlns="http://www.exoplatform.org/xml/ns/extension_1_0.xsd">
-  <name>dhconsulting-webapp</name>
-  <container>portal</container>
-</extension>
