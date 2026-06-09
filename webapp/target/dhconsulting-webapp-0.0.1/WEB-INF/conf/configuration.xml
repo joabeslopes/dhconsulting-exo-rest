@@ -7,4 +7,19 @@
     <key>br.com.dhconsulting.rest.UltimaSprint</key>
     <type>br.com.dhconsulting.rest.UltimaSprint</type>
   </component>
+
+  <external-component-plugins>
+    <target-component>org.exoplatform.container.definition.PortalContainerConfig</target-component>
+    <component-plugin>
+      <name>Add dhconsulting to portal</name>
+      <set-method>registerSelectedRestWebapps</set-method>
+      <type>org.exoplatform.container.definition.PortalContainerDefinitionPlugin</type>
+      <init-params>
+        <values-param>
+          <name>rest-webapps</name>
+          <value>dhconsulting-webapp</value>
+        </values-param>
+      </init-params>
+    </component-plugin>
+  </external-component-plugins>
 </configuration>
